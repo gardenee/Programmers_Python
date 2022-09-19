@@ -32,7 +32,6 @@ def solution(n, k):
             if num % i == 0:
                 temp = 0
                 break
-        print("num", num, "temp", temp)
         answer += temp
 
     return answer
