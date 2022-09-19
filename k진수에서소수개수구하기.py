@@ -20,7 +20,6 @@ def solution(n, k):
     n = change(n, k)
     n = n.replace("0", " ")
     nums = list(map(int, n.split()))
-    print("nums", nums)
 
     for num in nums:
         if num != 1:
